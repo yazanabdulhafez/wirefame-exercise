@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-rows: 100px 1fr 50px;
+    grid-template-rows: 100px 1fr 150px;
     gap: 30px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -10,7 +10,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(48, 46, 46);
+    background-color: rgb(65, 62, 62);
     width: 100%;
 }
 
@@ -80,5 +80,6 @@ main section:nth-child(3) a:hover {
 
 footer {
     width: 100%;
-    background-color: rgb(48, 46, 46);
+    background-color: rgb(65, 62, 62);
+    height: 150px;
 }
